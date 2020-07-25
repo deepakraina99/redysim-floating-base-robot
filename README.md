@@ -1,6 +1,19 @@
 # Recursive Dynamic Simulator (ReDySim) module for dynamic simulation of closed chain floating-base robotic systems
 The Recursive Dynamics Simulator (ReDySim) is a MATLAB-based recursive solver for dynamic analysis of robotic and multibody systems. The more details regarding this software is available at its [website](http://redysim.weebly.com/). This module in this repository has increased the capability of this software for dynamic analysis of closed chain floating-base robotic system such as space robot. This is developed to carry out simulations for my M.Tech thesis work at [IIT Jodhpur](http://www.iitj.ac.in/) while working with [Prof. Suril V. Shah](http://surilshah.weebly.com/). The objective is to provide a comprehensive modeling framework for capturing and manoeuvering of orbiting objects using a multi-arm robotic system mounted on a satellite. This framework provides a technique for proper debris disposal, thereby preventing their possible collision with active satellites. This also offers a technique for On-Orbit Servicing (OOS) operations such as refuel, repair and refurbishment of on-orbit satellites by an astronaut.
 
+### Citations
+Please cite our [Springer](https://link.springer.com/chapter/10.1007/978-981-10-8597-0_48) paper if you use this repository in your publications:
+```
+@incollection{raina2019modeling,
+  title={Modeling and Estimation of Closed-Loop Impact for Multi-arm Space Robot While Capturing a Tumbling Orbiting Object},
+  author={Raina, Deepak and Gora, Sunil and Shah, Suril Vijaykumar},
+  booktitle={Machines, Mechanism and Robotics},
+  pages={561--570},
+  year={2019},
+  publisher={Springer}
+}
+```
+
 ### System Specs:
 - [MATLAB](https://matlab.mathworks.com/) 2009 or higher
 
@@ -22,15 +35,3 @@ The Recursive Dynamics Simulator (ReDySim) is a MATLAB-based recursive solver fo
 
 The more details regarding the software are provide in [manual](https://github.com/deepakraina99/redysim-floating-base-robot/blob/master/Manual_Floating-base_ForDyn.pdf). User may also run another demos by simply copying the files from the folders fivebar and sixbar mechanism and paste in the main folder containing the file run_me.m in order to simulate either of them. 
 
-## Citations
-Please cite our [Springer](https://link.springer.com/chapter/10.1007/978-981-10-8597-0_48) paper if you use this repository in your publications:
-```
-@incollection{raina2019modeling,
-  title={Modeling and Estimation of Closed-Loop Impact for Multi-arm Space Robot While Capturing a Tumbling Orbiting Object},
-  author={Raina, Deepak and Gora, Sunil and Shah, Suril Vijaykumar},
-  booktitle={Machines, Mechanism and Robotics},
-  pages={561--570},
-  year={2019},
-  publisher={Springer}
-}
-```
