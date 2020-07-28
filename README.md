@@ -33,5 +33,5 @@ Please cite our Springer [paper](https://link.springer.com/chapter/10.1007/978-9
 
 **7.** Ensure that both the timevar.dat and statevar.dat files are in the program folder containing file animate.m. Run file animate.m in order to animate system using the simulation data. This file is specific to the system under study and hence need to be modified depending on the system or mechanism.
 
-The more details regarding the software are provide in [manual](https://github.com/deepakraina99/redysim-floating-base-robot/blob/master/Manual_Floating-base_ForDyn.pdf). User may also run another demos by simply copying the files from the folders fivebar and sixbar mechanism and paste in the main folder containing the file run_me.m in order to simulate either of them. 
+The more details regarding the software are provided in [manual](https://github.com/deepakraina99/redysim-floating-base-robot/blob/master/Manual_Floating-base_ForDyn.pdf). User may also run another demos by simply copying the files from the folders fivebar, sixbar mechanism, etc. and paste in the main folder containing the file run_me.m in order to simulate either of them. 
 
